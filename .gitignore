@@ -1,0 +1,46 @@
+# Dependency directories
+/node_modules
+
+# Output of the build script
+/build
+
+# Environment variables file
+.env.local
+
+# Editor-specific files
+.vscode/
+*.code-workspace
+
+# IDE-specific configuration files
+.idea/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage directory for code coverage reports
+/coverage
+
+# Compiled output
+/dist
+
+
+
+
+# Automatically created debugging files
+debug.log
+
+# Ignore npm's debug log
+.npm-debug.log*
+
+# Mac OS system files
+.DS_Store
+
+# Yarn 2 files
+.yarn/cache
+
+# If using TypeScript, ignore compiled .ts and .d.ts files
+*.ts
+*.d.ts
+credentials.json

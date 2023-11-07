@@ -1,0 +1,24 @@
+{
+  "name": "vacation-responder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.4",
+    "google-auth-library": "^9.2.0",
+    "googleapis": "^128.0.0",
+    "http-server": "^14.1.1",
+    "node-cron": "^3.0.2",
+    "path": "^0.12.7"
+  }
+}
